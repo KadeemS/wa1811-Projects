@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 9
+   Tutorial Case
+   
+   Holiday Homepage Style Sheet
+   
+   Filename: hld_styles1.css
+
+*/
+
+/* Navigation list styles */
+
+.sidenav {
+   -webkit-flex: 1;
+   flex: 1 1;
+   position: right;
+   font-size: 1.3em;
+   line-height: 1.5em;
+   height: 1.2em; 
+   font-family: 'Coiny', cursive;
+   text-shadow: black 2px 1px 0px, blue 4px 2px 5px;   
+}
+
+.sidenav ul li a {
+   display: right;
+   word-spacing: 5px;
+   color: rgb(8, 33, 68);
+   text-align: center;
+}
+
+.sidenav ul li a:hover {
+   background-color: rgb(40, 37, 38);
+}
+
+.sidenav ul li a:visited {
+	color: rgb(237, 17, 14);
+}
+
+.sidenav ul li a:notvisited {
+	color: rgb(8, 33, 68);
+}
